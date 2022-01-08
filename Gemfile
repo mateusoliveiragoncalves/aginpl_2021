@@ -25,6 +25,8 @@ gem 'bootsnap', require: false
 
 gem 'haml-rails', '~> 2.0'
 
+gem 'ffi'
+
 
 group :development, :test do
   gem 'rspec-rails', '~> 5.0.0'
@@ -39,4 +41,7 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+  gem 'shoulda-matchers', '~> 5.0'
 end
+
+
